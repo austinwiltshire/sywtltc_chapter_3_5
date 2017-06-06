@@ -1,0 +1,4 @@
+#latitude,longitude. This is vendor derived, we can't change this
+0.5,0.5
+1.5,1.5
+3.0,0.5

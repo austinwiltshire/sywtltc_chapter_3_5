@@ -1,0 +1,3 @@
+#points are tuples of longitude, latitude separated by semicolons. Polygons formed only have 4 sides. This is vendor derived, we can't change this
+(1,0);(1,1);(0,1);(0,0)
+(4,0);(4,1);(0,1);(0,0)
