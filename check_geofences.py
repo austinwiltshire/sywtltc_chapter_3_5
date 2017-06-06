@@ -16,7 +16,8 @@ f = open("gpsdata.txt")
 points = []
 for l in f.readlines()[1:]:
     ps = l.split(",")
-    points.append([float(ps[0]), float(ps[1])])
+    lat,lon = float(ps[0]), float(ps[1])
+    points.append([lat, lon])
 
 for p1 in polygons:
     for p2 in points:
