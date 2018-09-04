@@ -1,8 +1,6 @@
 #suggestions are to use a strong type to represent a verified SQL string to clean up all the verification.
 #and use types to find out whats wrong with the calculation on age bug
 
-import test_helpers
-import validation
 import Member
 
 
@@ -17,7 +15,7 @@ def calculate_fee(Member: Member) -> int:
     if veteran is True:
         base_fee = base_fee * .85
     tenure = Member.tenure_status()
-    if tenure > 5:
+    if tenure is True:
         base_fee = base_fee - 1
 
     return base_fee

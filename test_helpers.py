@@ -39,8 +39,8 @@ def lookup_age(member_id: int) -> int:
 
     return {
         10: 17,
-        30: 20,
         20: 20,
+        30: 20,
         40: 70,
         50: 35,
     }[member_id]

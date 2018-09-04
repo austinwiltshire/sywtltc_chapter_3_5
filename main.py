@@ -13,8 +13,6 @@ if __name__ == '__main__':
             PURCHASER = Member.Member(MEMBER_ID)
             if PURCHASER:
                 VALID_INPUT = True
-            else:
-                print("Please enter a valid name")
         except KeyError:
             print("Please enter a name of someone who is a previous customer")
 
